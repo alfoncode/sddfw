@@ -1,0 +1,16 @@
+{
+  "name": "sddfw-landing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The first SDDFW landing page and interactive acceptance report preview.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dist",
+    "check": "node --check assets/main.js && node --check assets/theme.js && node --check scripts/serve.mjs && node --check scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
