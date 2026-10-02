@@ -49,7 +49,8 @@ pnpm preview
 ```
 
 Stop the development server before previewing the build on the same port.
-`dist/` contains a self-contained static page ready for a static host.
+`dist/` contains a self-contained static page ready for a static host, including
+the MIT license and copyright notice.
 
 ## Structure
 
