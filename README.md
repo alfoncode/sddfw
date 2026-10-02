@@ -1,10 +1,34 @@
-# SDDFW
+# SDDFW website
 
 Spec Driven Development Framework. Build with intent. Ship with evidence.
 
-This repository starts with the English landing page for the SDDFW v0.1 direction.
+This repository contains the English landing page for the SDDFW v0.1 direction.
 The framework is in development; the acceptance report on the landing is an
 interactive, explicitly labeled sample.
+
+## Project and community
+
+SDDFW is hosted by the [sddframework organization](https://github.com/sddframework).
+
+- [sddfw](https://github.com/sddframework/sddfw): framework collaboration and
+  project direction.
+- [Discussions](https://github.com/sddframework/sddfw/discussions): questions,
+  workflow examples, and feature ideas.
+- [website](https://github.com/sddframework/website): this landing page and its
+  specifications. Use this repository's issues for landing problems.
+- [.github](https://github.com/sddframework/.github): shared contribution
+  guidance, conduct rules, and community templates.
+
+The founder, organization owner, and primary maintainer is
+[@alfoncode](https://github.com/alfoncode). The website was transferred from
+`alfoncode/sddfw` with its history preserved.
+
+See the shared [contribution guide](https://github.com/sddframework/.github/blob/main/CONTRIBUTING.md)
+and the framework's [governance document](https://github.com/sddframework/sddfw/blob/main/GOVERNANCE.md).
+
+## License
+
+[MIT](LICENSE). Contributors retain copyright in their contributions.
 
 ## Local development
 
@@ -44,7 +68,7 @@ Core content and the baseline report remain readable without JavaScript.
 
 The sample does not run application tests or certify a change. The v0.1 and later
 roadmap items describe planned work. There is no waitlist backend, installable
-framework package or public repository link wired into the landing yet.
+framework package yet. The landing links to the public framework repository.
 
 ## Verified locally — 2026-10-01
 

@@ -2,6 +2,7 @@
   "name": "sddfw-landing",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "The first SDDFW landing page and interactive acceptance report preview.",
   "scripts": {
