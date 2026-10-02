@@ -52,6 +52,28 @@ Stop the development server before previewing the build on the same port.
 `dist/` contains a self-contained static page ready for a static host, including
 the MIT license and copyright notice.
 
+## Publication
+
+The production address is [https://sddfw.com](https://sddfw.com).
+GitHub Pages publishes only the static `dist/` output from this repository.
+The `Publish website` workflow checks and builds pull requests. Successful
+changes to `main` are deployed automatically; it can also be run manually from
+the Actions tab on `main`.
+
+The custom domain is configured in this repository's Pages settings. DNS stays
+with IONOS: the apex uses GitHub Pages A and AAAA records, and `www` is a CNAME
+to `sddframework.github.io`. GitHub redirects `www` to the apex domain. A separate
+TXT record verifies domain ownership for the organization. Keep that record
+and the mail records when changing hosting.
+
+The production page declares its canonical URL and includes public `robots.txt`
+and `sitemap.xml` files. The build also includes the MIT license.
+
+To restore a previous website version, revert the relevant source commit on
+`main` and let the workflow deploy it. DNS does not need to change for a source
+rollback. The pre-publication DNS snapshot is kept locally in
+`.artifacts/pages-deployment/` (gitignored).
+
 ## Structure
 
 - `index.html`: English content, page sections and baseline sample report.
